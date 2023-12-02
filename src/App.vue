@@ -29,7 +29,7 @@ export default{
  methods:{
    //promises
    async fetchCarDetails(){
-     const res = await fetch(" http://localhost:3034/api");
+     const res = await fetch("https://nagapraveen.onrender.com/api");
      const data = await res.json()
      console.log(data)
      return data
